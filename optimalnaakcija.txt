@@ -1,0 +1,145 @@
+//daje optimalnu akciju za taj trenutak 
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+#ifndef MAX
+#define MAX 100
+#endif
+float pp1 =0;
+float pp2 =0;
+float at1 =0;
+float at2 =0;
+int hp1 ;
+int hp2 ;
+int e1  ;
+int e2  ;
+
+int p1at1d;
+int p1at1c;
+
+int p2at1d;
+int p2at1c;
+
+int p1at2d;
+int p1at2c;
+
+int p2at2d;
+int p2at2c;
+
+int game(int h1,int h2,int n1, int n2,int i){
+ 
+    int hpp,nn;
+
+    if (i%2)
+    {
+        hpp = h1-p2at1d;
+        nn = n2-p2at1c;
+        if (nn<=0)
+        {
+            return 0;
+        }
+        
+        if (hpp<=0)
+        {
+            pp2++;
+            return 0;
+        }
+        else{
+            game(hpp,h2,n1,nn,++i);
+        }
+
+
+        hpp = h1-p2at2d;
+        nn = n2-p2at2c;
+        if (nn<=0)
+        {
+            return 0;
+        }
+        
+        if (hpp<=0)
+        {
+            pp2++;
+            return 0;
+        }
+        else{
+            game(hpp,h2,n1,nn,++i);
+        }
+    }
+
+    else{
+        hpp = h2-p1at1d;
+        nn = n1-p1at1c;
+        if (nn<=0)
+        {
+            return 0;
+        }
+        
+        if (hpp<=0)
+        {
+            pp1++;
+            return 0;
+        }
+        else{
+            game(h1,hpp,nn,n2,++i);
+        }
+        hpp = h2-p1at2d;
+        nn = n1-p1at2c;
+        if (nn<0)
+        {
+            return 0;
+        }
+        
+        if (hpp<0)
+        {
+            pp1++;
+            return 0;
+        }
+        else{
+            game(h1,hpp,nn,n2,++i);
+        }
+    }
+
+            
+    return 1;
+}
+
+
+
+
+
+
+
+int main(){
+    
+    cin>>hp1>>hp2>>e1>>e2>>p1at1d>>p1at1c>>p1at2d>>p1at2c>>p2at1d>>p2at1c>>p2at2d>>p2at2c;
+
+
+    int i =0;
+   
+        if (e2-p2at2c>0 && hp1-p2at2d>0)
+        {
+            game(hp1-p2at2d,hp2,e1,e2-p2at2c,i);
+        }
+        at2=pp2/(pp2+pp1)*100;
+        pp1=0;
+        pp2=0;
+        if (e2-p2at1c>0 && hp1-p2at1d>0)
+        {
+            game(hp1-p2at1d,hp2,e1,e2-p2at1c,i);
+        }
+        at1=pp2/(pp2+pp1)*100;
+        
+        
+
+    if (at2>at1){
+        cout<<'2';
+    }
+    else{cout<<'1';}
+    return 0;
+    
+    
+}

@@ -1,0 +1,1630 @@
+fileFormatVersion: 2
+guid: 84820b392ee9f464faaeae5599f073e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasy_sword1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c452e4c7ebce6444184e10d4e56c0af9
+      internalID: 1063191009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd565b247b008b4aa7b1c88912fd224
+      internalID: -1255588903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d0163f3c72514ca26fe8c8fb6c94c
+      internalID: -193575124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bb242c855e9944c8798aee975aae8e
+      internalID: 1880135738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5b173eaa57d994999bd9d6e352d3ce
+      internalID: -1702161880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10b2c8527685904bab8bc774d16e04d
+      internalID: -2035285074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4ae6e6c94fbc84a8bd1c973dbb5df3
+      internalID: 1797496142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e784ce04ca9d25c4290ca0f47ce046fe
+      internalID: 1068328791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d288b2d7e828d80449c1f0511f140d86
+      internalID: -962099406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5962ff6454feaf943a2f27c856804152
+      internalID: -774292386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_sword2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a351ce32ba1c660449dbdbaf83a372f7
+      internalID: 97693413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b71d13ea16deb42b22549af0c377fb
+      internalID: 1522560432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b0782c5e86514ebebec45b4010338
+      internalID: 1449031692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103eb7be51aa7ec439584e07be4e6285
+      internalID: -1634826684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c765ddea35d6b484da39c1f00055064a
+      internalID: -868057178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ce81bfddc0b347bac023fd0e77b2e
+      internalID: 641799903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8d3ab13246c964083556b6de0c644a
+      internalID: 1110012635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33df2a84cd8e694e990858698ad039a
+      internalID: 1267267044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d95d27ac1f314d92182b054e9853d
+      internalID: 1287408203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c67267643c60f43ada66e08b0c5dbe
+      internalID: -1592087860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_sword3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8307357d2a591c4c89d450a70a2987f
+      internalID: -10542672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5053ccbbc016246ba2a48ba4b5baf2
+      internalID: -338070024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af898fcf07226494c9e670bf32b7cd10
+      internalID: 465011885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d24706c78062940b9c2bc5a524c787
+      internalID: 1043564340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df553df03641a1646b4cb8e73a62650f
+      internalID: 29987287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e67044857b2e642ad747319cdb5729
+      internalID: -922720107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083842f7816e3548858396442e7e029
+      internalID: -1793302936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b89fdec1de0ab4da3937cbce1fbad5
+      internalID: -500939602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591f0ca3af89a0642b48eedd69ae3e3c
+      internalID: -1193293777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e29195a7e5b394594a38397013b81d
+      internalID: -2001258744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_sword4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d32f86534d00941a336d1fea46b2f1
+      internalID: -1608045963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde359c0bb4d335478d3cbe7118dc7a3
+      internalID: -189918702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a0b443762a4274dad3a99608c8d4a5
+      internalID: 1243778376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fb948a6daa39f488d16e6983ed3027
+      internalID: -1696449254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74564a0b856068148a95354e96a10484
+      internalID: -469098006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c9319f4d8eb9498edb2275278b741
+      internalID: 76649146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca5f07e35ac6749b51f785f296adbd
+      internalID: -565195174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3e7bad784a4c4ebcf780f6ef502a9
+      internalID: 714733869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498cbfbc1b4ffc14995946a0e61cd381
+      internalID: 1144766438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104351b7b7edfcc4ea55ef7e4e9a83ed
+      internalID: -1101742476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_sword5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f08b476942f0f48bee602545750355
+      internalID: 255902886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7996e1f570eb78846984d95b946d3bda
+      internalID: -2013029653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de417be3673e14bac061f994a43719
+      internalID: 769733261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df224cd8287791440babd5459dd7b900
+      internalID: 1093669690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5e1cc046215604e805501627c2566f
+      internalID: -1755821170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f269549e6f72044a3b39d0cc41fbd2
+      internalID: -1718474255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70dbfb88458d84458c41625923b9258
+      internalID: 697544478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e6930857067f42982df69a3003e15
+      internalID: -787077186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc4d11bfad2a38489bbb00e5cc8f8eb
+      internalID: -2088565077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_epicweapons_pack1_nobg_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5585388963154381f86a07a529dfd
+      internalID: 1192703204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -160, y: -46}
+      - {x: -160, y: -63}
+      - {x: -155, y: -78}
+      - {x: -144, y: -80}
+      - {x: -126, y: -80}
+      - {x: -126, y: -60}
+      - {x: -149, y: -46}
+    - - {x: -126, y: -46}
+      - {x: -130, y: -49}
+      - {x: -130, y: -72}
+      - {x: -119, y: -79}
+      - {x: -114, y: -80}
+      - {x: -94, y: -80}
+      - {x: -94, y: -63}
+      - {x: -102, y: -46}
+    - - {x: 2, y: -46}
+      - {x: -2, y: -51}
+      - {x: -2, y: -61}
+      - {x: 24, y: -80}
+      - {x: 34, y: -80}
+      - {x: 34, y: -75}
+      - {x: 12, y: -46}
+    - - {x: 31, y: -68}
+      - {x: 37, y: -77}
+      - {x: 51, y: -80}
+      - {x: 66, y: -80}
+      - {x: 66, y: -68}
+      - {x: 65, y: -65}
+      - {x: 58, y: -47}
+      - {x: 36, y: -47}
+      - {x: 31, y: -50}
+    - - {x: 67, y: -49}
+      - {x: 65, y: -51}
+      - {x: 65, y: -60}
+      - {x: 89, y: -80}
+      - {x: 96, y: -80}
+      - {x: 96, y: -71}
+      - {x: 76, y: -49}
+    - - {x: 129, y: -49}
+      - {x: 129, y: -70}
+      - {x: 142, y: -80}
+      - {x: 149, y: -80}
+      - {x: 159, y: -66}
+      - {x: 159, y: -49}
+    - - {x: -98, y: -66}
+      - {x: -91, y: -72}
+      - {x: -75, y: -79}
+      - {x: -62, y: -79}
+      - {x: -62, y: -58}
+      - {x: -63, y: -50}
+      - {x: -76, y: -48}
+      - {x: -94, y: -48}
+      - {x: -98, y: -54}
+    - - {x: -33, y: -16}
+      - {x: -33, y: -69}
+      - {x: -21, y: -79}
+      - {x: 0, y: -79}
+      - {x: 0, y: -19}
+      - {x: -8, y: -16}
+    - - {x: 111, y: -51}
+      - {x: 102, y: -51}
+      - {x: 98, y: -59}
+      - {x: 98, y: -65}
+      - {x: 110, y: -77}
+      - {x: 118, y: -77}
+      - {x: 123, y: -76}
+      - {x: 126, y: -71}
+      - {x: 126, y: -63}
+    - - {x: -53, y: -49}
+      - {x: -59, y: -49}
+      - {x: -61, y: -50}
+      - {x: -61, y: -55}
+      - {x: -53, y: -67}
+      - {x: -44, y: -76}
+      - {x: -34, y: -76}
+      - {x: -34, y: -68}
+      - {x: -43, y: -57}
+    - - {x: 3, y: -14}
+      - {x: -2, y: -14}
+      - {x: -2, y: -27}
+      - {x: 20, y: -50}
+      - {x: 34, y: -50}
+      - {x: 34, y: -41}
+      - {x: 11, y: -17}
+    - - {x: -154, y: -14}
+      - {x: -157, y: -14}
+      - {x: -159, y: -15}
+      - {x: -159, y: -40}
+      - {x: -146, y: -49}
+      - {x: -129, y: -49}
+      - {x: -128, y: -47}
+      - {x: -128, y: -39}
+      - {x: -132, y: -30}
+    - - {x: -98, y: -45}
+      - {x: -91, y: -48}
+      - {x: -62, y: -48}
+      - {x: -62, y: -15}
+      - {x: -88, y: -15}
+      - {x: -98, y: -21}
+    - - {x: -130, y: -39}
+      - {x: -123, y: -40}
+      - {x: -111, y: -40}
+      - {x: -110, y: -37}
+      - {x: -102, y: -47}
+      - {x: -94, y: -47}
+      - {x: -94, y: -41}
+      - {x: -107, y: -21}
+      - {x: -113, y: -16}
+      - {x: -128, y: -16}
+      - {x: -130, y: -19}
+    - - {x: 30, y: -39}
+      - {x: 42, y: -46}
+      - {x: 66, y: -46}
+      - {x: 66, y: -27}
+      - {x: 61, y: -16}
+      - {x: 32, y: -16}
+      - {x: 30, y: -18}
+    - - {x: 135, y: -16}
+      - {x: 133, y: -17}
+      - {x: 133, y: -41}
+      - {x: 139, y: -46}
+      - {x: 154, y: -46}
+      - {x: 155, y: -41}
+      - {x: 155, y: -16}
+    - - {x: 75, y: -20}
+      - {x: 69, y: -20}
+      - {x: 68, y: -22}
+      - {x: 68, y: -28}
+      - {x: 73, y: -38}
+      - {x: 87, y: -45}
+      - {x: 93, y: -45}
+      - {x: 93, y: -37}
+      - {x: 78, y: -21}
+    - - {x: 99, y: -20}
+      - {x: 98, y: -24}
+      - {x: 98, y: -36}
+      - {x: 107, y: -45}
+      - {x: 119, y: -45}
+      - {x: 125, y: -42}
+      - {x: 125, y: -30}
+      - {x: 113, y: -20}
+    - - {x: -60, y: -20}
+      - {x: -60, y: -27}
+      - {x: -42, y: -44}
+      - {x: -35, y: -44}
+      - {x: -35, y: -36}
+      - {x: -38, y: -26}
+      - {x: -44, y: -20}
+    - - {x: -13, y: -34}
+      - {x: -11, y: -36}
+      - {x: -15, y: -36}
+      - {x: -14, y: -36}
+    - - {x: -20, y: -27}
+      - {x: -18, y: -29}
+      - {x: -20, y: -31}
+      - {x: -19, y: -31}
+    - - {x: -92, y: 18}
+      - {x: -98, y: 10}
+      - {x: -98, y: -3}
+      - {x: -71, y: -18}
+      - {x: -66, y: -18}
+      - {x: -62, y: -16}
+      - {x: -62, y: -10}
+      - {x: -64, y: -6}
+      - {x: -77, y: 18}
+    - - {x: 20, y: -18}
+      - {x: 34, y: -18}
+      - {x: 34, y: -9}
+      - {x: 20, y: 16}
+      - {x: 0, y: 16}
+      - {x: 0, y: -6}
+    - - {x: -3, y: 1}
+      - {x: 1, y: 6}
+      - {x: -5, y: 16}
+      - {x: -8, y: 14}
+      - {x: -12, y: 16}
+      - {x: -22, y: 16}
+      - {x: -31, y: 13}
+      - {x: -32, y: 5}
+      - {x: -32, y: -17}
+      - {x: -6, y: -17}
+      - {x: 1, y: -9}
+      - {x: 1, y: -3}
+    - - {x: -160, y: 16}
+      - {x: -160, y: 3}
+      - {x: -152, y: -15}
+      - {x: -147, y: -16}
+      - {x: -131, y: -16}
+      - {x: -128, y: -14}
+      - {x: -128, y: -9}
+      - {x: -133, y: 4}
+      - {x: -150, y: 16}
+    - - {x: 138, y: 16}
+      - {x: 128, y: 6}
+      - {x: 128, y: -5}
+      - {x: 134, y: -16}
+      - {x: 154, y: -16}
+      - {x: 156, y: -11}
+      - {x: 156, y: 10}
+      - {x: 151, y: 16}
+    - - {x: 30, y: -6}
+      - {x: 35, y: -11}
+      - {x: 47, y: -15}
+      - {x: 66, y: -15}
+      - {x: 66, y: 8}
+      - {x: 44, y: 16}
+      - {x: 37, y: 16}
+      - {x: 32, y: 15}
+      - {x: 30, y: 5}
+    - - {x: -114, y: 14}
+      - {x: -128, y: 14}
+      - {x: -128, y: 2}
+      - {x: -125, y: -7}
+      - {x: -115, y: -6}
+      - {x: -114, y: -3}
+      - {x: -101, y: -14}
+      - {x: -99, y: -14}
+      - {x: -95, y: -10}
+      - {x: -95, y: 1}
+    - - {x: 80, y: 14}
+      - {x: 70, y: 14}
+      - {x: 66, y: 10}
+      - {x: 66, y: -2}
+      - {x: 83, y: -14}
+      - {x: 90, y: -14}
+      - {x: 94, y: -10}
+      - {x: 94, y: -5}
+    - - {x: -48, y: 12}
+      - {x: -58, y: 12}
+      - {x: -60, y: 11}
+      - {x: -60, y: 2}
+      - {x: -53, y: -11}
+      - {x: -44, y: -13}
+      - {x: -37, y: -13}
+      - {x: -35, y: -11}
+      - {x: -35, y: -5}
+      - {x: -38, y: 4}
+    - - {x: 99, y: 12}
+      - {x: 98, y: 8}
+      - {x: 98, y: -4}
+      - {x: 107, y: -13}
+      - {x: 119, y: -13}
+      - {x: 125, y: -10}
+      - {x: 125, y: 2}
+      - {x: 113, y: 12}
+    - - {x: -15, y: -5}
+      - {x: -12, y: -3}
+      - {x: -10, y: -5}
+      - {x: -12, y: -5}
+      - {x: -13, y: -4}
+    - - {x: -20, y: 5}
+      - {x: -18, y: 2}
+      - {x: -20, y: 0}
+      - {x: -19, y: 0}
+    - - {x: -155, y: 50}
+      - {x: -160, y: 50}
+      - {x: -160, y: 33}
+      - {x: -143, y: 14}
+      - {x: -126, y: 14}
+      - {x: -126, y: 26}
+      - {x: -146, y: 44}
+    - - {x: -132.1944, y: 63.91359}
+      - {x: -133.37404, y: 64.89159}
+      - {x: -136.80148, y: 64.9077}
+      - {x: -138.27429, y: 62.980377}
+      - {x: -155.54228, y: 80}
+      - {x: -160, y: 80}
+      - {x: -160, y: 75.04161}
+      - {x: -142.99736, y: 58.25586}
+      - {x: -144.99341, y: 56.488617}
+      - {x: -145.02324, y: 53.08255}
+      - {x: -143.96538, y: 52.24411}
+      - {x: -140.31178, y: 52.09407}
+      - {x: -138.14432, y: 54.190628}
+      - {x: -131.44316, y: 47.868584}
+      - {x: -129, y: 49}
+      - {x: -128, y: 52}
+      - {x: -134, y: 57.086395}
+      - {x: -134.06479, y: 58.719208}
+      - {x: -132.20956, y: 60.33043}
+    - - {x: 31, y: 48}
+      - {x: 32, y: 43}
+      - {x: 8, y: 50}
+      - {x: -1, y: 50}
+      - {x: -2, y: 48}
+      - {x: -6, y: 47}
+      - {x: -7, y: 47}
+      - {x: -12, y: 42}
+      - {x: -17, y: 47}
+      - {x: -7, y: 47}
+      - {x: -2, y: 49}
+      - {x: 5, y: 57}
+      - {x: -5, y: 80}
+      - {x: -34, y: 80}
+      - {x: -34, y: 14}
+      - {x: 66, y: 14}
+      - {x: 66, y: 48}
+      - {x: 35, y: 61}
+    - - {x: -63, y: 47}
+      - {x: -63, y: 24}
+      - {x: -62, y: 17}
+      - {x: -60, y: 15}
+      - {x: -35, y: 15}
+      - {x: -34, y: 16}
+      - {x: -34, y: 32}
+      - {x: -50, y: 47}
+    - - {x: -73, y: 48}
+      - {x: -94, y: 48}
+      - {x: -98, y: 42}
+      - {x: -98, y: 31}
+      - {x: -90, y: 19}
+      - {x: -85, y: 18}
+      - {x: -64, y: 18}
+      - {x: -62, y: 19}
+      - {x: -62, y: 40}
+      - {x: -65, y: 47}
+    - - {x: 98, y: 46}
+      - {x: 96, y: 42}
+      - {x: 96, y: 32}
+      - {x: 109, y: 18}
+      - {x: 122, y: 18}
+      - {x: 127, y: 20}
+      - {x: 127, y: 35}
+      - {x: 114, y: 46}
+    - - {x: 82, y: 48}
+      - {x: 66, y: 48}
+      - {x: 66, y: 35}
+      - {x: 70, y: 32}
+      - {x: 75, y: 30}
+      - {x: 77, y: 30}
+      - {x: 71, y: 30}
+      - {x: 66, y: 25}
+      - {x: 66, y: 21}
+      - {x: 69, y: 19}
+      - {x: 93, y: 19}
+      - {x: 95, y: 20}
+      - {x: 95, y: 27}
+    - - {x: 134, y: 80}
+      - {x: 129, y: 78}
+      - {x: 129, y: 26}
+      - {x: 136, y: 19}
+      - {x: 151, y: 19}
+      - {x: 158, y: 24}
+      - {x: 158, y: 77}
+      - {x: 156, y: 80}
+    - - {x: -114, y: 80}
+      - {x: -128, y: 69}
+      - {x: -128, y: 56}
+      - {x: -123, y: 46}
+      - {x: -94, y: 46}
+      - {x: -94, y: 80}
+    - - {x: -2, y: 80}
+      - {x: -2, y: 68}
+      - {x: 24, y: 46}
+      - {x: 32, y: 46}
+      - {x: 34, y: 50}
+      - {x: 34, y: 55}
+      - {x: 10, y: 80}
+    - - {x: 30, y: 48}
+      - {x: 66, y: 48}
+      - {x: 66, y: 61}
+      - {x: 57, y: 77}
+      - {x: 48, y: 80}
+      - {x: 32, y: 80}
+      - {x: 30, y: 70}
+    - - {x: -91, y: 79}
+      - {x: -98, y: 72}
+      - {x: -98, y: 52}
+      - {x: -92, y: 50}
+      - {x: -62, y: 50}
+      - {x: -62, y: 64}
+      - {x: -71, y: 79}
+    - - {x: -51, y: 78}
+      - {x: -59, y: 78}
+      - {x: -61, y: 77}
+      - {x: -61, y: 72}
+      - {x: -52, y: 51}
+      - {x: -38, y: 51}
+      - {x: -34, y: 55}
+      - {x: -34, y: 57}
+      - {x: -35, y: 68}
+    - - {x: 66, y: 79}
+      - {x: 66, y: 65}
+      - {x: 83, y: 51}
+      - {x: 92, y: 51}
+      - {x: 94, y: 55}
+      - {x: 94, y: 61}
+      - {x: 79, y: 79}
+    - - {x: 100, y: 76}
+      - {x: 100, y: 60}
+      - {x: 109, y: 51}
+      - {x: 122, y: 51}
+      - {x: 127, y: 53}
+      - {x: 127, y: 70}
+      - {x: 112, y: 76}
+    - - {x: -12, y: 59}
+      - {x: -9, y: 56}
+      - {x: -10, y: 57}
+      - {x: -10, y: 58}
+    - - {x: -24, y: 71}
+      - {x: -21, y: 68}
+      - {x: -22, y: 69}
+      - {x: -22, y: 70}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fantasy_epicweapons_pack1_nobg_1: -1255588903
+      fantasy_epicweapons_pack1_nobg_11: 1522560432
+      fantasy_epicweapons_pack1_nobg_12: 1449031692
+      fantasy_epicweapons_pack1_nobg_13: -1634826684
+      fantasy_epicweapons_pack1_nobg_14: -868057178
+      fantasy_epicweapons_pack1_nobg_15: 641799903
+      fantasy_epicweapons_pack1_nobg_16: 1110012635
+      fantasy_epicweapons_pack1_nobg_17: 1267267044
+      fantasy_epicweapons_pack1_nobg_18: 1287408203
+      fantasy_epicweapons_pack1_nobg_19: -1592087860
+      fantasy_epicweapons_pack1_nobg_2: -193575124
+      fantasy_epicweapons_pack1_nobg_21: -338070024
+      fantasy_epicweapons_pack1_nobg_22: 465011885
+      fantasy_epicweapons_pack1_nobg_23: 1043564340
+      fantasy_epicweapons_pack1_nobg_24: 29987287
+      fantasy_epicweapons_pack1_nobg_25: -922720107
+      fantasy_epicweapons_pack1_nobg_26: -1793302936
+      fantasy_epicweapons_pack1_nobg_27: -500939602
+      fantasy_epicweapons_pack1_nobg_28: -1193293777
+      fantasy_epicweapons_pack1_nobg_29: -2001258744
+      fantasy_epicweapons_pack1_nobg_3: 1880135738
+      fantasy_epicweapons_pack1_nobg_31: -189918702
+      fantasy_epicweapons_pack1_nobg_32: 1243778376
+      fantasy_epicweapons_pack1_nobg_33: -1696449254
+      fantasy_epicweapons_pack1_nobg_34: -469098006
+      fantasy_epicweapons_pack1_nobg_35: 76649146
+      fantasy_epicweapons_pack1_nobg_36: -565195174
+      fantasy_epicweapons_pack1_nobg_37: 714733869
+      fantasy_epicweapons_pack1_nobg_38: 1144766438
+      fantasy_epicweapons_pack1_nobg_39: -1101742476
+      fantasy_epicweapons_pack1_nobg_4: -1702161880
+      fantasy_epicweapons_pack1_nobg_41: -2013029653
+      fantasy_epicweapons_pack1_nobg_42: 769733261
+      fantasy_epicweapons_pack1_nobg_43: 1093669690
+      fantasy_epicweapons_pack1_nobg_44: -1755821170
+      fantasy_epicweapons_pack1_nobg_45: -1718474255
+      fantasy_epicweapons_pack1_nobg_46: 697544478
+      fantasy_epicweapons_pack1_nobg_47: -787077186
+      fantasy_epicweapons_pack1_nobg_48: -2088565077
+      fantasy_epicweapons_pack1_nobg_49: 1192703204
+      fantasy_epicweapons_pack1_nobg_5: -2035285074
+      fantasy_epicweapons_pack1_nobg_6: 1797496142
+      fantasy_epicweapons_pack1_nobg_7: 1068328791
+      fantasy_epicweapons_pack1_nobg_8: -962099406
+      fantasy_epicweapons_pack1_nobg_9: -774292386
+      fantasy_sword1: 1063191009
+      fantasy_sword2: 97693413
+      fantasy_sword3: -10542672
+      fantasy_sword4: -1608045963
+      fantasy_sword5: 255902886
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

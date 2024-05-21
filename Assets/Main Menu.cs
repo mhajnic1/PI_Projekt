@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour{
     public void PlayGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("BeginningScene");
     }
 
     public void GoSettingsMenu(){
@@ -19,4 +19,9 @@ public class NewBehaviourScript : MonoBehaviour{
     public void QuitGame(){
         Application.Quit();
     }
+
+    public void GoToAudioSettingsMenu(){
+        SceneManager.LoadScene("AudioMenu");
+    }
+
 }

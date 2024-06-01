@@ -1351,6 +1351,7 @@ MonoBehaviour:
     type: 3}
   PlayerBattleground: {fileID: 222672488}
   EnemyBattleground: {fileID: 679623765}
+  dialogueText: {fileID: 386694691}
   state: 0
 --- !u!4 &889742868
 Transform:

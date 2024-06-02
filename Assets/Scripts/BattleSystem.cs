@@ -63,6 +63,7 @@ public class BattleSystem : MonoBehaviour
 
         playerHUD.setHP(playerUnit.currentHP);
         yield return new WaitForSeconds(2f);
+        
 
         if(isDead){
             state = BattleState.LOST;
@@ -83,6 +84,13 @@ public class BattleSystem : MonoBehaviour
 
         StartCoroutine(PlayerAttack());
     }
+
+    public void OnHeal(){
+        if (state != BattleState.PLAYERTURN) return;
+
+        StartCoroutine(PlayerHeal());
+    }
+
     IEnumerator PlayerAttack(){
 
             // Napasti neprijatelja
@@ -104,6 +112,17 @@ public class BattleSystem : MonoBehaviour
             }
             // Promjeniti state igre zavisno od rezultata 
         }
+    IEnumerator PlayerHeal(){
+        playerUnit.Heal(5);
+
+        playerHUD.setHP(playerUnit.currentHP);
+        dialogueText.text = "You feel better!";
+
+        yield return new WaitForSeconds(2f);
+
+        state = BattleState.ENEMYTURN;
+        StartCoroutine(EnemyTurn());
+    }
 
     // GAME STATE
     // TODO

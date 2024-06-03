@@ -8,21 +8,24 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
 
-    public GameObject playerPrefab;
-    public GameObject enemyPrefab;
-    public Transform PlayerBattleground;
-    public Transform EnemyBattleground;
+    public GameObject[] playerPrefab;
+    public GameObject[] enemyPrefab;
+    public Transform[] PlayerBattleground;
+    public Transform[] EnemyBattleground;
     public Text dialogueText;
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
-    Unit playerUnit;
-    Unit enemyUnit;
+    Unit[] playerUnit;
+    Unit[] enemyUnit;
     
     public BattleState state;
     // Postavimo state na start - početak combat-a
     void Start()
     {
         state = BattleState.START;
+
+        playerUnit = new Unit[PlayerBattleground.Length];
+        enemyUnit = new Unit[EnemyBattleground.Length];
 
         // koristimo coroutine da čekamo
         StartCoroutine(SetupBattle());
@@ -31,16 +34,16 @@ public class BattleSystem : MonoBehaviour
     // Instanciramo player i enemy unit-e te započnemo igračev turn
     IEnumerator SetupBattle()
     {
-        GameObject playerGO = Instantiate(playerPrefab, PlayerBattleground);
-        playerUnit = playerGO.GetComponent<Unit>();
+        GameObject playerGO = Instantiate(playerPrefab[0], PlayerBattleground[0]);
+        playerUnit[0] = playerGO.GetComponent<Unit>();
         
-        GameObject enemyGO = Instantiate(enemyPrefab, EnemyBattleground);
-        enemyUnit = enemyGO.GetComponent<Unit>();
+        GameObject enemyGO = Instantiate(enemyPrefab[0], EnemyBattleground[0]);
+        enemyUnit[0] = enemyGO.GetComponent<Unit>();
 
-        dialogueText.text = "A wild " + enemyUnit.unitName + "\n approaches...";
+        dialogueText.text = "A wild " + enemyUnit[0].unitName + "\n approaches...";
 
-        playerHUD.SetHUD(playerUnit);
-        enemyHUD.SetHUD(enemyUnit);
+        playerHUD.SetHUD(playerUnit[0]);
+        enemyHUD.SetHUD(enemyUnit[0]);
 
         // čekamo dvije sekunde
         yield return new WaitForSeconds(2f);
@@ -55,13 +58,13 @@ public class BattleSystem : MonoBehaviour
     IEnumerator EnemyTurn(){
         //TODO
         //Implementirati kompletnu logiku borbe
-        dialogueText.text = enemyUnit.unitName + " attacks!";
+        dialogueText.text = enemyUnit[0].unitName + " attacks!";
 
         yield return new WaitForSeconds(2f);
 
-        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+        bool isDead = playerUnit[0].TakeDamage(enemyUnit[0].damage);
 
-        playerHUD.setHP(playerUnit.currentHP);
+        playerHUD.setHP(playerUnit[0].currentHP);
         yield return new WaitForSeconds(2f);
         
 
@@ -94,9 +97,9 @@ public class BattleSystem : MonoBehaviour
     IEnumerator PlayerAttack(){
 
             // Napasti neprijatelja
-            bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+            bool isDead = enemyUnit[0].TakeDamage(playerUnit[0].damage);
 
-            enemyHUD.setHP(enemyUnit.currentHP);
+            enemyHUD.setHP(enemyUnit[0].currentHP);
             dialogueText.text = "The attack is successful!";
             yield return new WaitForSeconds(2f);
 
@@ -113,9 +116,9 @@ public class BattleSystem : MonoBehaviour
             // Promjeniti state igre zavisno od rezultata 
         }
     IEnumerator PlayerHeal(){
-        playerUnit.Heal(5);
+        playerUnit[0].Heal(5);
 
-        playerHUD.setHP(playerUnit.currentHP);
+        playerHUD.setHP(playerUnit[0].currentHP);
         dialogueText.text = "You feel better!";
 
         yield return new WaitForSeconds(2f);

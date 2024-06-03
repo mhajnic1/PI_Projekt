@@ -1,5 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,11 +17,19 @@ public class BattleSystem : MonoBehaviour
     public Transform[] PlayerBattleground;
     public Transform[] EnemyBattleground;
     public Text dialogueText;
-    public BattleHUD playerHUD;
-    public BattleHUD enemyHUD;
+    public BattleHUD[] playerHUD;
+    public BattleHUD[] enemyHUD;
+    public GameObject deadPrefab;
+    public Animator[] animatorenemy;
+    public Animator[] animatorplayer;
     Unit[] playerUnit;
     Unit[] enemyUnit;
-    
+
+    public int k = 0;
+    public int z = 0;
+    public int randomNumber;
+    public int lastNumber;
+
     public BattleState state;
     // Postavimo state na start - početak combat-a
     void Start()
@@ -26,6 +38,7 @@ public class BattleSystem : MonoBehaviour
 
         playerUnit = new Unit[PlayerBattleground.Length];
         enemyUnit = new Unit[EnemyBattleground.Length];
+        animatorenemy = new Animator[EnemyBattleground.Length];
 
         // koristimo coroutine da čekamo
         StartCoroutine(SetupBattle());
@@ -34,97 +47,182 @@ public class BattleSystem : MonoBehaviour
     // Instanciramo player i enemy unit-e te započnemo igračev turn
     IEnumerator SetupBattle()
     {
-        GameObject playerGO = Instantiate(playerPrefab[0], PlayerBattleground[0]);
-        playerUnit[0] = playerGO.GetComponent<Unit>();
+        for(int i = 0; i < 3; i++){
+        GameObject playerGO = Instantiate(playerPrefab[i], PlayerBattleground[i]);
+        playerUnit[i] = playerGO.GetComponent<Unit>();
         
-        GameObject enemyGO = Instantiate(enemyPrefab[0], EnemyBattleground[0]);
-        enemyUnit[0] = enemyGO.GetComponent<Unit>();
+        GameObject enemyGO = Instantiate(enemyPrefab[i], EnemyBattleground[i]);
+        enemyUnit[i] = enemyGO.GetComponent<Unit>();
 
+         //animatorplayer[i] = playerUnit[i].GetComponent<Animator>();
+        animatorenemy[i] = enemyUnit[i].GetComponent<Animator>();
+        playerHUD[i].SetHUD(playerUnit[i]);
+        enemyHUD[i].SetHUD(enemyUnit[i]);
+        }
+
+       
         dialogueText.text = "A wild " + enemyUnit[0].unitName + "\n approaches...";
-
-        playerHUD.SetHUD(playerUnit[0]);
-        enemyHUD.SetHUD(enemyUnit[0]);
-
         // čekamo dvije sekunde
         yield return new WaitForSeconds(2f);
 
         state = BattleState.PLAYERTURN;
-        PlayerTurn();
+        PlayerTurn(k);
 
     }
 
     
     // ENEMY TURN
-    IEnumerator EnemyTurn(){
-        //TODO
-        //Implementirati kompletnu logiku borbe
-        dialogueText.text = enemyUnit[0].unitName + " attacks!";
+    IEnumerator EnemyTurn(int z){
+        // mrtvi ne mogu napadati
+       /* int counter = 0;
+        while(enemyUnit[z].currentHP <= 0){
+            z++;
+            if(z == 3) z = 0;counter++;
+            if(counter > 6) state = BattleState.LOST; EndBattle();
+        }
+       */
+        dialogueText.text = enemyUnit[z].unitName + " attacks!";
 
         yield return new WaitForSeconds(2f);
 
-        bool isDead = playerUnit[0].TakeDamage(enemyUnit[0].damage);
+        // triggeramo animaciju za napad
+        animatorenemy[z].ResetTrigger("idle");
+        animatorenemy[z].SetTrigger("attack");
 
-        playerHUD.setHP(playerUnit[0].currentHP);
+        // ne mozemo napasti mrtvu metu
+        int broj = NewRandomNumber();
+        Boolean provjera = true;
+        while(provjera){
+                if(playerUnit[broj].currentHP <= 0){
+                    broj++;
+                    if(broj == 3) broj = 0;
+                    print("zapeo u while provjeri");
+                } else {
+                    provjera = false;
+                }
+            }
+        
+        /*while(playerUnit[broj].currentHP <= 0){
+            broj = NewRandomNumber();
+        }*/
+        bool isDead = playerUnit[broj].TakeDamage(enemyUnit[z].damage);
+
+        if(playerUnit[broj].currentHP <= 0) playerUnit[broj].currentHP = 0;
+        playerHUD[broj].setHP(playerUnit[broj].currentHP);
+        
         yield return new WaitForSeconds(2f);
         
 
-        if(isDead){
-            state = BattleState.LOST;
-            EndBattle();
+        if(/*playerUnit[broj].currentHP < 0*/isDead){
+            int provjera2 = 0;
+            for(int i = 0; i < 3; i++){
+                provjera2 += playerUnit[i].currentHP;
+            }
+            print(provjera2);
+            if(provjera2 <= 0){
+                state = BattleState.LOST;
+                EndBattle();
+            } else {
+            state = BattleState.PLAYERTURN;
+            if(k == 2) {k = 0;} else{ k++;}
+            PlayerTurn(k);
+            }
         } else {
             state = BattleState.PLAYERTURN;
-            PlayerTurn();
+            if(k == 2) {k = 0;} else{ k++;}
+            PlayerTurn(k);
         }
     }
 
     // PLAYER TURN
-    void PlayerTurn(){
+    void PlayerTurn(int k){
         dialogueText.text = "Choose an action:";
     }
 
     public void OnAttackButton(){
         if (state != BattleState.PLAYERTURN) return;
 
-        StartCoroutine(PlayerAttack());
+        StartCoroutine(PlayerAttack(k));
     }
 
     public void OnHeal(){
         if (state != BattleState.PLAYERTURN) return;
-
-        StartCoroutine(PlayerHeal());
+        if(k == 2) {k = 0;} else{ k++;}
+        StartCoroutine(PlayerHeal(k));
     }
+ 
+    IEnumerator PlayerAttack(int k){
+        //int counter = 0; 
+        /*
+            while(playerUnit[k].currentHP <= 0){
+                k++;
+                if(k == 3) k = 0; counter++;
+                if(counter > 6) state = BattleState.LOST; EndBattle();
+            }
+            counter = 0;*/
+            int broj = NewRandomNumber();
+            // ne mozes napasti mrtvog lika
+            
+            Boolean provjera = true;
 
-    IEnumerator PlayerAttack(){
+            while(provjera){
+                if(enemyUnit[broj].currentHP <= 0){
+                    broj++;
+                    if(broj == 3) broj = 0;
+                    print("zapeo u while provjeri");
+                } else {
+                    provjera = false;
+                }
+            }
 
             // Napasti neprijatelja
-            bool isDead = enemyUnit[0].TakeDamage(playerUnit[0].damage);
-
-            enemyHUD.setHP(enemyUnit[0].currentHP);
+            bool isDead = enemyUnit[broj].TakeDamage(playerUnit[k].damage);
+            if(enemyUnit[broj].currentHP <= 0) enemyUnit[broj].currentHP = 0;
+            enemyHUD[broj].setHP(enemyUnit[broj].currentHP);
+            
             dialogueText.text = "The attack is successful!";
             yield return new WaitForSeconds(2f);
 
             //Provjeriti ako je neprijatelj mrtav
-            if(isDead){
+            if(/*enemyUnit[broj].currentHP < 0*/isDead){
                 //Kraj bitke
+            
+            // triggerati animaciju za smrt
+            animatorenemy[broj].ResetTrigger("idle");
+            animatorenemy[broj].SetTrigger("death");
+            if(z == 2) {z = 0;} else{ z++;}
+            int provjera2 = 0;
+            for(int i = 0; i < 3; ++i){
+                provjera2 += enemyUnit[i].currentHP;
+            }
+            print(provjera2);
+            if(provjera2 <= 0){
                 state = BattleState.WON;
                 EndBattle();
             } else {
+            state = BattleState.ENEMYTURN;
+            if(z == 2) {z = 0;} else{ z++;}
+            StartCoroutine(EnemyTurn(z));
+            }
+            } else {
                 //Neprijatelj je na redu
                 state = BattleState.ENEMYTURN;
-                StartCoroutine(EnemyTurn());
+                if(z == 2) {z = 0;} else{ z++;}
+                StartCoroutine(EnemyTurn(z));
             }
             // Promjeniti state igre zavisno od rezultata 
         }
-    IEnumerator PlayerHeal(){
-        playerUnit[0].Heal(5);
+    IEnumerator PlayerHeal(int k){
+        playerUnit[k].Heal(5);
 
-        playerHUD.setHP(playerUnit[0].currentHP);
+        playerHUD[k].setHP(playerUnit[k].currentHP);
         dialogueText.text = "You feel better!";
 
         yield return new WaitForSeconds(2f);
 
         state = BattleState.ENEMYTURN;
-        StartCoroutine(EnemyTurn());
+        if(z == 2) {z = 0;} else{ z++;}
+        StartCoroutine(EnemyTurn(z));
     }
 
     // GAME STATE
@@ -137,4 +235,17 @@ public class BattleSystem : MonoBehaviour
                 dialogueText.text = "You lost the battle :(";
             }
         }
+
+    public int NewRandomNumber()
+{
+    randomNumber =  UnityEngine.Random.Range(0,3);
+
+    if (randomNumber == lastNumber)
+    {
+        randomNumber =  UnityEngine.Random.Range(0,3);
+    }
+
+    lastNumber = randomNumber;
+    return randomNumber;
+}
 }

@@ -8,6 +8,7 @@ public class BattleHUD : MonoBehaviour
     public Text nameText;
     public Text levelText;
     public Slider hpSlider;
+    public Image ElementIcon;
 
     public void SetHUD(Unit unit){
         nameText.text = unit.unitName;

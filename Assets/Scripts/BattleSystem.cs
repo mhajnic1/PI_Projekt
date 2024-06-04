@@ -73,6 +73,16 @@ public class BattleSystem : MonoBehaviour
     
     // ENEMY TURN
     IEnumerator EnemyTurn(int z){
+        Boolean provjera = true;
+        while(provjera){
+                if(enemyUnit[z].currentHP <= 0){
+                    z++;
+                    if(z == 3) z = 0;
+                    print("zapeo u while provjeri da ne moze mrtvi enemy napast");
+                } else {
+                    provjera = false;
+                }
+            }
         // mrtvi ne mogu napadati
        /* int counter = 0;
         while(enemyUnit[z].currentHP <= 0){
@@ -91,7 +101,7 @@ public class BattleSystem : MonoBehaviour
 
         // ne mozemo napasti mrtvu metu
         int broj = NewRandomNumber();
-        Boolean provjera = true;
+        provjera = true;
         while(provjera){
                 if(playerUnit[broj].currentHP <= 0){
                     broj++;
@@ -153,6 +163,17 @@ public class BattleSystem : MonoBehaviour
  
     IEnumerator PlayerAttack(int k){
         //int counter = 0; 
+        Boolean provjera = true;
+        // mrtvi igrac ne moze napasti
+        while(provjera){
+                if(playerUnit[k].currentHP <= 0){
+                    k++;
+                    if(k == 3) k = 0;
+                    print("zapeo u while provjeri da ne moze mrtvi player napast");
+                } else {
+                    provjera = false;
+                }
+            }
         /*
             while(playerUnit[k].currentHP <= 0){
                 k++;
@@ -160,11 +181,10 @@ public class BattleSystem : MonoBehaviour
                 if(counter > 6) state = BattleState.LOST; EndBattle();
             }
             counter = 0;*/
+
             int broj = NewRandomNumber();
             // ne mozes napasti mrtvog lika
-            
-            Boolean provjera = true;
-
+            provjera = true;
             while(provjera){
                 if(enemyUnit[broj].currentHP <= 0){
                     broj++;

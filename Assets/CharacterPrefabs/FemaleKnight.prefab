@@ -75,8 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3318188226485093758, guid: 7bccf4f2f839d7f4390ccadd6b61f1b3,
-    type: 3}
+  m_Sprite: {fileID: -3318188226485093758, guid: 7bccf4f2f839d7f4390ccadd6b61f1b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -120,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dcd0e5fa11d404db1aaac7a41b157e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Zena
+  unitName: Cait
   unitLevel: 4
   damage: 10
   maxHP: 30

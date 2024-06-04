@@ -628,7 +628,6 @@ PlayerSettings:
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  syncCapabilities: 0
   platformCapabilities: {}
   metroTargetDeviceFamilies: {}
   metroFTAName: 
@@ -683,11 +682,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: b45fde2b-a800-4782-8b1d-a4fbaa6044ce
+  cloudProjectId: 23c30e9a-a915-49c1-b59f-207a9bd12d0e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: main menu
-  organizationId: viktor_vladislovic
+  projectName: My project
+  organizationId: unity_vusfvow1asnrrq
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

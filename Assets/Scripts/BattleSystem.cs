@@ -74,11 +74,12 @@ public class BattleSystem : MonoBehaviour
     // ENEMY TURN
     IEnumerator EnemyTurn(int z){
         Boolean provjera = true;
+
+        // enemy ne moze napast ako je mrtav
         while(provjera){
                 if(enemyUnit[z].currentHP <= 0){
                     z++;
                     if(z == 3) z = 0;
-                    print("zapeo u while provjeri da ne moze mrtvi enemy napast");
                 } else {
                     provjera = false;
                 }
@@ -106,7 +107,6 @@ public class BattleSystem : MonoBehaviour
                 if(playerUnit[broj].currentHP <= 0){
                     broj++;
                     if(broj == 3) broj = 0;
-                    print("zapeo u while provjeri");
                 } else {
                     provjera = false;
                 }
@@ -128,7 +128,6 @@ public class BattleSystem : MonoBehaviour
             for(int i = 0; i < 3; i++){
                 provjera2 += playerUnit[i].currentHP;
             }
-            print(provjera2);
             if(provjera2 <= 0){
                 state = BattleState.LOST;
                 EndBattle();
@@ -169,7 +168,6 @@ public class BattleSystem : MonoBehaviour
                 if(playerUnit[k].currentHP <= 0){
                     k++;
                     if(k == 3) k = 0;
-                    print("zapeo u while provjeri da ne moze mrtvi player napast");
                 } else {
                     provjera = false;
                 }
@@ -189,7 +187,6 @@ public class BattleSystem : MonoBehaviour
                 if(enemyUnit[broj].currentHP <= 0){
                     broj++;
                     if(broj == 3) broj = 0;
-                    print("zapeo u while provjeri");
                 } else {
                     provjera = false;
                 }
@@ -215,7 +212,6 @@ public class BattleSystem : MonoBehaviour
             for(int i = 0; i < 3; ++i){
                 provjera2 += enemyUnit[i].currentHP;
             }
-            print(provjera2);
             if(provjera2 <= 0){
                 state = BattleState.WON;
                 EndBattle();

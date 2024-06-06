@@ -1,0 +1,1054 @@
+{
+  "json": [
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\EnvMapAnimator.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 0
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_TextSelector_A.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": -599105366,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 1
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\VertexShakeA.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 2
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_TextEventHandler.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 795945389,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 3
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\Benchmark01_UGUI.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 4
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\Benchmark04.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 5
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\ChatController.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 49746653,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 6
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\SimpleScript.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 7
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\Benchmark01.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 8
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_FrameRateCounter.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 9
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_DigitValidator.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 193925,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 10
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TextMeshSpawner.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 11
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\Benchmark02.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 12
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\CameraController.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 13
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\Benchmark03.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_ExampleScript_01.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 49746653,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMPro_InstructionOverlay.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 16
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\VertexShakeB.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 17
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\DropdownSample.cs",
+          "navigation": {
+            "currentLine": 96317,
+            "previousLine": 0,
+            "nextLine": 6218353,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\VertexColorCycler.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 19
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\ObjectSpin.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 20
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_PhoneNumberValidator.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 21
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\VertexJitter.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 22
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TextConsoleSimulator.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 23
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TeleType.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 24
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_TextEventCheck.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 25
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_UiFrameRateCounter.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 26
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\VertexZoom.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 6206697,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 27
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_TextSelector_B.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 795945389,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 28
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\SkewTextExample.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 29
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\WarpTextExample.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 30
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TextMeshProFloatingText.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 31
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\ShaderPropAnimator.cs",
+          "navigation": {
+            "currentLine": 6218353,
+            "previousLine": 0,
+            "nextLine": 794439757,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 32
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\TextMesh Pro\\Examples & Extras\\Scripts\\TMP_TextInfoDebugTool.cs",
+          "navigation": {
+            "currentLine": 193925,
+            "previousLine": 0,
+            "nextLine": 6218353,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 33
+    },
+    {
+      "code": "V009",
+      "message": "To use free version of PVS-Studio, source code files are required to start with a special comment.",
+      "falseAlarm": false,
+      "level": 0,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 1,
+          "endLine": 1,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Temp\\obj\\Debug\\Assembly-CSharp\\.NETStandard,Version=v2.1.AssemblyAttributes.cs",
+          "navigation": {
+            "currentLine": 8177592,
+            "previousLine": 0,
+            "nextLine": 193925,
+            "columns": 0
+          }
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 34
+    },
+    {
+      "code": "V4002",
+      "message": "Avoid storing consecutive concatenations inside a single string in performance-sensitive context. Consider using StringBuilder to improve performance.",
+      "falseAlarm": false,
+      "level": 2,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\Scripts\\WALL.cs",
+          "navigation": {
+            "currentLine": 2067804541,
+            "previousLine": -1405481099,
+            "nextLine": 169559507,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 60,
+          "endLine": 60,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\Scripts\\WALL.cs"
+        }
+      ],
+      "cwe": 0,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 35
+    },
+    {
+      "code": "V4001",
+      "message": "The frequently called 'Update' method contains the 'Typing()' call which performs boxing. This may decrease performance.",
+      "falseAlarm": false,
+      "level": 3,
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 40,
+          "endLine": 40,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\Scripts\\WALL.cs",
+          "navigation": {
+            "currentLine": 2067804541,
+            "previousLine": -1405481099,
+            "nextLine": 169559507,
+            "columns": 0
+          }
+        },
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 60,
+          "endLine": 60,
+          "file": "c:\\Users\\Korisnik\\Documents\\GitHub\\PI_Projekt\\Assets\\Scripts\\WALL.cs"
+        }
+      ],
+      "cwe": 1235,
+      "sastId": "",
+      "projects": [
+        "Assembly-CSharp"
+      ],
+      "favorite": false,
+      "id": 36
+    }
+  ]
+}

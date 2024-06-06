@@ -1,2 +1,1 @@
-# PI_Projekt
-Programsko inžinjerstvo - igrica sa elementima strojnog učenja
+"Programsko inzinjerstvo - igrica sa elementima strojnog ucenja" 

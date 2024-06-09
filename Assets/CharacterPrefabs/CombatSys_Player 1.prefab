@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1210816811238503254}
-  - component: {fileID: 3754891325385663420}
+  - component: {fileID: 8372721787365830491}
   m_Layer: 4
   m_Name: CombatSys_Player 1
   m_TagString: Untagged
@@ -37,7 +37,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.002, y: 0.002}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3754891325385663420
+--- !u!114 &8372721787365830491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49,11 +49,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dcd0e5fa11d404db1aaac7a41b157e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Dead
+  unitName: 
   unitLevel: 0
   damage: 0
   maxHP: 0
   currentHP: 0
+  element: 
 --- !u!1 &8439084933571119530
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,3 +201,4 @@ MonoBehaviour:
   damage: 10
   maxHP: 25
   currentHP: 20
+  element: 

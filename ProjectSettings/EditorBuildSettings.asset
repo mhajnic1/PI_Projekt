@@ -18,21 +18,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: fbeb2475e0b13c344bc48a20ca657b24
   - enabled: 1
+    path: Assets/Scenes/CombatScene.unity
+    guid: 32dfef77aa646384881fbcfc3b9fd6ac
+  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: f78cc5c97cb09ea49b79ac61024fbb63
+  - enabled: 1
+    path: Assets/Scenes/CombatScene For Level 2.unity
+    guid: cce47980031431249a6699086a0babcc
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: a5f41ee703766124092d6971c1804441
   - enabled: 1
+    path: Assets/Scenes/CombatScene For Level 3.unity
+    guid: f9b02abb20f0fdc4181ec5427dd7211b
+  - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: d99da539f02b7b84a9b909b254057675
   - enabled: 1
-    path: Assets/Scenes/AudioMenu.unity
-    guid: 9a6126925dda880deb23b63e3f2df350
+    path: Assets/Scenes/CombatScene For Level 4.unity
+    guid: d61a999db6ba823459dda645440b1b2b
   - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: da1315f107c76c346a403f5e35a5f7c6
   - enabled: 1
-    path: Assets/Scenes/CombatScene.unity
-    guid: 32dfef77aa646384881fbcfc3b9fd6ac
+    path: Assets/Scenes/AudioMenu.unity
+    guid: 9a6126925dda880deb23b63e3f2df350
   m_configObjects: {}

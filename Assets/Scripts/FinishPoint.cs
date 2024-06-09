@@ -3,14 +3,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class FinishPoint : MonoBehaviour
 {
+    static int count = 5;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") )
         {
-            SceneController.instance.NextLevel();
+            if(count == 5)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                count = 0;
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + count + 1);
+                count++;
+                count = count % 2;
+            
+            }
+            
         }
     }
 }

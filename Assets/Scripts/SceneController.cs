@@ -7,10 +7,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    static int sceneOpened = 0;
     public static SceneController instance;
 
     private void Awake()
     {
+        sceneOpened++;
+        Debug.Log(sceneOpened + "  ");
         if(instance == null)
         {
             instance = this;
@@ -19,6 +22,14 @@ public class SceneController : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+        if (sceneOpened > 2)
+        {
+            foreach (GameObject g in GameObject.FindGameObjectsWithTag("CriticalPath"))
+            {
+                Destroy(g);
+            }
+            sceneOpened = 1;
         }
     }
 

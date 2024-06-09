@@ -253,9 +253,10 @@ public class BattleSystem : MonoBehaviour
             } else if (state == BattleState.LOST){
                 dialogueText.text = "You lost the battle :(";
             }
-            SceneManager.LoadScene("MainMenu");
-            
-        }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+
+    }
 
     public int NewRandomNumber()
 {

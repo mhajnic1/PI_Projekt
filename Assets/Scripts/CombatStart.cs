@@ -10,7 +10,7 @@ public class CombatStart : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("CombatScene");
+            SceneManager.LoadScene("CombatScene For Level 4");
         }
     }
 }

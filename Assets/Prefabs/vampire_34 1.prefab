@@ -122,6 +122,6 @@ MonoBehaviour:
   unitName: Vampire
   unitLevel: 2
   damage: 10
-  maxHP: 15
-  currentHP: 15
+  maxHP: 20
+  currentHP: 20
   element: red

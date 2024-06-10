@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5420964360928519114}
   - component: {fileID: 1642449717417400616}
   m_Layer: 0
-  m_Name: grim_reaper_1
+  m_Name: grim_reaperBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   damage: 10
   maxHP: 25
   currentHP: 25
-  element: green
+  element: blue
 --- !u!95 &1642449717417400616
 Animator:
   serializedVersion: 5

@@ -42,6 +42,7 @@ public class BattleSystem : MonoBehaviour
         playerUnit = new Unit[PlayerBattleground.Length];
         enemyUnit = new Unit[EnemyBattleground.Length];
         animatorenemy = new Animator[EnemyBattleground.Length];
+        animatorplayer = new Animator[PlayerBattleground.Length];
 
         // koristimo coroutine da čekamo
         StartCoroutine(SetupBattle());
@@ -57,7 +58,7 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGO = Instantiate(enemyPrefab[i], EnemyBattleground[i]);
         enemyUnit[i] = enemyGO.GetComponent<Unit>();
 
-         //animatorplayer[i] = playerUnit[i].GetComponent<Animator>();
+         animatorplayer[i] = playerUnit[i].GetComponent<Animator>();
         animatorenemy[i] = enemyUnit[i].GetComponent<Animator>();
         playerHUD[i].SetHUD(playerUnit[i]);
         enemyHUD[i].SetHUD(enemyUnit[i]);
@@ -120,7 +121,12 @@ public class BattleSystem : MonoBehaviour
         }*/
         bool isDead = playerUnit[broj].TakeDamage(enemyUnit[z].damage);
 
-        if(playerUnit[broj].currentHP <= 0) playerUnit[broj].currentHP = 0;
+        if(playerUnit[broj].currentHP <= 0) 
+        {
+            playerUnit[broj].currentHP = 0;
+            animatorplayer[broj].ResetTrigger("idle");
+            animatorplayer[broj].SetTrigger("death");
+        }
         playerHUD[broj].setHP(playerUnit[broj].currentHP);
         
         yield return new WaitForSeconds(2f);
@@ -199,7 +205,8 @@ public class BattleSystem : MonoBehaviour
             bool isDead = enemyUnit[broj].TakeDamage(playerUnit[k].damage);
             if(enemyUnit[broj].currentHP <= 0) enemyUnit[broj].currentHP = 0;
             enemyHUD[broj].setHP(enemyUnit[broj].currentHP);
-            
+            animatorplayer[k].ResetTrigger("idle");
+            animatorplayer[k].SetTrigger("attack");
             dialogueText.text = "The attack is successful!";
             yield return new WaitForSeconds(2f);
 

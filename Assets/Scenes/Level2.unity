@@ -34402,6 +34402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2993795585a2143a0e1240d4714154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nonstaticSceneOpened: 0
 --- !u!4 &982808751
 Transform:
   m_ObjectHideFlags: 0
@@ -35338,6 +35339,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3832014568009924880, guid: 15772ca43a7b75446aa9be65cbe1a543, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a2ca87f9a9fb14b428e2b6b6995b80f0, type: 2}
     - target: {fileID: 5062569412347897788, guid: 15772ca43a7b75446aa9be65cbe1a543, type: 3}
       propertyPath: m_Name
       value: vampire_34

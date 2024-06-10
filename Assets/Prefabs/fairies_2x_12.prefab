@@ -119,9 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dcd0e5fa11d404db1aaac7a41b157e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Cait
+  unitName: Fairy
   unitLevel: 4
   damage: 10
   maxHP: 30
   currentHP: 30
-  element: red
+  element: green
